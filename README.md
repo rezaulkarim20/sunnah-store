@@ -1,2 +1,2 @@
-# Project name: sunnan_store
+# Project name: sunnah-store
 
