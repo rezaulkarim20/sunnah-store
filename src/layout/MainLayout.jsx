@@ -1,9 +1,15 @@
-import Home from "../pages/home/Home";
+import { Outlet } from "react-router-dom";
+import Header from "../conponent/sheare/header/Header";
+import Footer from "../conponent/sheare/footer/Footer";
 
 const MainLayout = () => {
   return (
     <>
-      <Home />
+      <Header />
+      <div>
+        <Outlet />
+      </div>
+      <Footer />
     </>
   );
 };
