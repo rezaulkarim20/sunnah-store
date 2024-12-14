@@ -4,13 +4,13 @@ import Footer from "../conponent/sheare/footer/Footer";
 
 const MainLayout = () => {
   return (
-    <>
+    <div>
       <Header />
       <div>
         <Outlet />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
